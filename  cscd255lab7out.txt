@@ -1,0 +1,239 @@
+
+ clang-7 -pthread -lm -o main lab7.c main.c
+ ./main
+Pick Array Size
+Enter a number: -200
+error: number is less than 1.
+Pick Array Size
+Enter a number: 0
+error: number is less than 1.
+Pick Array Size
+Enter a number: 1
+
+Fill Array
+Enter a number: 2
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[2]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 2
+
+Add Value to Array
+Enter a number: 2
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 3
+Enter a number: 2
+Value found at position 0
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[2, 2]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 4
+ 
+
+
+
+
+
+ clang-7 -pthread -lm -o main lab7.c main.c
+ ./main
+Pick Array Size
+Enter a number: 5
+
+Fill Array
+Enter a number: 500
+Enter a number: 400 
+Enter a number: 300
+Enter a number: 200
+Enter a number: 100
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 3
+Enter a number: 5000
+Value NOT found
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 500
+
+You entered an invalid menu choice.
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 3
+Enter a number: 500
+Value found at position 4
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[100, 200, 300, 400, 500]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 2
+
+Add Value to Array
+Enter a number: 0 
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[0, 100, 200, 300, 400, 500]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 4
+ 
+
+
+
+
+ clang-7 -pthread -lm -o main lab7.c main.c
+ ./main
+Pick Array Size
+Enter a number: -1
+error: number is less than 1.
+Pick Array Size
+Enter a number: 1
+
+Fill Array
+Enter a number: 45678
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 3
+Enter a number: 9876
+Value NOT found
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 2
+
+Add Value to Array
+Enter a number: 9876
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 3
+Enter a number: 9876
+Value found at position 0
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 245678  
+
+You entered an invalid menu choice.
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 2
+
+Add Value to Array
+Enter a number: 345678
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[9876, 45678, 345678]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 2
+
+Add Value to Array
+Enter a number: -456789
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 1
+
+Display Array
+[-456789, 9876, 45678, 345678]
+
+Menu choices are:
+1) Display the sorted array
+2) Add a single value to the array
+3) Find a value in the array
+4) Quit
+Choose: 4
+ 
